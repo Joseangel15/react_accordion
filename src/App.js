@@ -1,7 +1,9 @@
 import './App.css';
 import Accordion from './components/accordion';
+import ModalTest from './components/custom-modal-popup/modal-test';
 import TabTest from './components/custom-tabs/tab-test';
 import Tabs from './components/custom-tabs/tabs';
+import GithubProfileFinder from './components/github-profile-finder';
 import ImageSlider from './components/image-slider';
 import LighDarkMode from './components/ligh-dark-mode';
 import LoadMoreData from './components/load-more-button';
@@ -43,7 +45,13 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
       {/* Custom Tabs component */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* Custom Modal component */}
+      {/* <ModalTest /> */}
+
+      {/* Github Profile Finder */}
+      <GithubProfileFinder />
     </div>
   );
 }
