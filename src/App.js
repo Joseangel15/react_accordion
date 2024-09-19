@@ -10,6 +10,7 @@ import LoadMoreData from './components/load-more-button';
 import QRCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color';
 import ScrollIndicator from './components/scroll-indicator';
+import SearchAutocomplete from './components/search-autocomplete-with-api';
 import StarRating from './components/star-rating';
 import TreeView from './components/tree-view';
 import menus from './components/tree-view/data';
@@ -51,7 +52,10 @@ function App() {
       {/* <ModalTest /> */}
 
       {/* Github Profile Finder */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/* Search Autocomplete */}
+      <SearchAutocomplete />
     </div>
   );
 }
